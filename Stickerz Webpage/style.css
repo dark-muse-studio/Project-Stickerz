@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(73, 71, 71);
+}
+
+
+/* Master Container */
+
+.master-container-one {
+    position: absolute;
+}
+
+.master-container-two {
+    position: absolute;
+}
+
+
+/* Banner Image */
+
+.banner-image {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    box-shadow: 1px 5px 7px;
+}
+
+.image_one {
+    width: 100%;
+    height: 300px;
+    opacity: .7;
+    filter: brightness(20%);
+}
+
+.App-name {
+    position: relative;
+    bottom: 600px;
+    left: 250px;
+    font-family: 'Bombing', sans-serif;
+    font-size: 300px;
+    background: linear-gradient(330deg, #b82828 0%, #72af35 25%, #2aa3a3 50%, #7632b9 75%, #b82828 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 12px;
+}
+
+
+/* nav bar */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 300px;
+    width: 101%;
+    box-shadow: 1px 5px 7px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+.home {
+    margin-left: 500px;
+}
+
+
+/* Boxes */
+
+.promotions {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    top: 60px;
+    box-shadow: 1px 5px 7px;
+}
+
+.advertisements {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 795px;
+    width: 250px;
+    position: relative;
+    top: 363px;
+    left: 1007px;
+    bottom: 5000px;
+    box-shadow: 1px 5px 7px;
+}
+
+.box-three {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 400px;
+    width: 710px;
+    position: relative;
+    top: -435px;
+    right: -275px;
+    box-shadow: 1px 5px 7px;
+}
